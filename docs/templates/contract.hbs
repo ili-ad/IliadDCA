@@ -1,0 +1,11 @@
+{{>common}}
+
+## Functions
+
+{{#each items}}
+{{#if (eq kind "function")}}
+{{#hsection}}
+{{>item}}
+{{/hsection}}
+{{/if}}
+{{/each}}

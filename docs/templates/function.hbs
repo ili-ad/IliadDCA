@@ -1,0 +1,29 @@
+
+
+### {{name}}
+
+```solidity
+{{signature}}
+```
+
+{{#if notice}}
+<p>{{notice}}</p>
+{{/if}}
+
+{{#if inputs.length}}
+#### Parameters
+
+| Name             | Type     | Description                         |
+| ---------------- | -------- | ----------------------------------- |
+{{#each inputs}}
+| `{{name}}`       | `{{type}}` | {{#if description}}{{description}}{{else}}—{{/if}} |
+{{/each}}
+{{/if}}
+
+#### Returns
+
+| Type             | Description                         |
+| ---------------- | ----------------------------------- |
+| `{{#if outputs}}{{outputs.[0].type}}{{else}}—{{/if}}` | {{#if outputs.[0].description}}{{outputs.[0].description}}{{else}}—{{/if}} |
+
+> **Mutability:** `{{stateMutability}}`

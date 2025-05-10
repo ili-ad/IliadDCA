@@ -1,0 +1,17 @@
+node_modules
+.env
+# Node / Hardhat artifacts
+node_modules/
+artifacts/
+cache/
+build/
+openzeppelin-upgrades.json
+.openzeppelin/
+# OS temp files
+.DS_Store
+Thumbs.db
+EOF
+
+# Local asset dumps
+archive/
+nft-metadata/
