@@ -37,7 +37,7 @@ When you purchase an object with this digital certificate, you receive:
 
 Unlike common NFTs, which primarily trade speculative digital assets, this DCA establishes a permanent, trustworthy connection between a **physical art or design object** and its **digital record of authenticity and provenance**. The goal is not speculative trading, but credibility, trust, and enduring value.
 
-We leverage the flexible tooling of the ERC-721 protocol, widely used for NFTs, to serve a distinctly different purpose. We've removed any financial incentive for trading DCAs independently of their physical objects by contractually requiring a 100% commission. While you can easily view and manage certificates using platforms like OpenSea and store them in wallets such as MetaMask or other NFT-compatible wallets, our intention is clear: we fully support trading the physical object, but the digital certificate itself is not meant to take on an independent speculative life: sell the object for value; transfer the certificate as a rider.
+We leverage the flexible tooling of the ERC-721 protocol, widely used for NFTs, to serve a distinctly different purpose. We've removed any financial incentive for trading DCAs independently of their physical objects by contractually requiring a 100% commission. While you can easily view and manage certificates using platforms like OpenSea and store them in wallets such as MetaMask or other NFT-compatible wallets, our intention is clear: we fully support trading the physical object, but the digital certificate itself is not meant to take on an independent speculative life: sell the object for value; transfer the certificate as a side-car.
 
 ## Key Contract Features (Transparent, for Verification):
 
